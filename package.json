@@ -1,0 +1,22 @@
+{
+  "name": "payrollverifier",
+  "version": "1.0.0",
+  "description": "A simple single page app that calculates the check coming in from work (according to MA residency)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ben Kioko",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.6.3",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "yargs": "^16.1.0"
+  }
+}
