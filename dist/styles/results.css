@@ -1,0 +1,37 @@
+#results {
+    background: #fff;
+    margin: 10% auto 0 auto;
+    padding: 25px 0;
+    border: #a0a0a0 solid 1px;
+    width: 60%;
+}
+
+#results h1 {
+    width: 70%;
+    font-size: 2.6rem;
+    padding-bottom: 15px;
+    margin: 0 auto 25px auto;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+#results h1 ~ * {
+   text-align: left;
+   margin: 0 0 20px 17%;
+   font-size: 1.8rem;
+}
+
+#results li {
+    text-align: left;
+    list-style-type: none;
+    margin: 0 0 10px 30px;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+#results #startOver {
+    text-align: center;
+    display: block;
+    margin: 40px auto 0 auto;
+    font-size: 1.3rem;
+    padding: 5px;
+}
