@@ -25,6 +25,11 @@ const app = document.querySelector('#app'),
 
 app.append(form);
 
+document.querySelectorAll('input')[0].addEventListener('input', function() {
+    if (Number(this.value) > 12) {
+        this.value = 12;
+    }
+});
 document.querySelectorAll('input')[1].addEventListener('input', function() {
     let newVal = '';
 
@@ -42,6 +47,11 @@ document.querySelectorAll('input')[1].addEventListener('input', function() {
 
     if (Number(this.value) > 59) {
         this.value = 59;
+    }
+});
+document.querySelectorAll('input')[2].addEventListener('input', function() {
+    if (Number(this.value) > 12) {
+        this.value = 12;
     }
 });
 document.querySelectorAll('input')[3].addEventListener('input', function() {
@@ -70,14 +80,14 @@ document.querySelector('#add').addEventListener('click', () => {
         endTime = [],
         shift = 0,
         allInputsFilled = true;
-    
+
     for (let i = 0; i < section.childNodes.length; i++) {
         if (i !== 3 && i !== 7)
         if (!section.childNodes[i].value) {
             allInputsFilled = false;
         }
     }
-    
+
     if (!allInputsFilled) {
         alert('Please fill out all blank spaces.');
     } else {
@@ -89,7 +99,7 @@ document.querySelector('#add').addEventListener('click', () => {
         endTime[1] = section.childNodes[5].value;
         endTime[2] = section.childNodes[6].value;
 
-        
+
         shift = calculate.shift(startTime, endTime);
         shift = (shift < 0 ? shift + 24 : shift);
 
@@ -99,11 +109,11 @@ document.querySelector('#add').addEventListener('click', () => {
             if (!eventListenerExists.forSubmit) {
                 document.querySelector('#submit').addEventListener('click', () => {
                     let intervalID;
-                
+
                     form.remove();
                     list.remove();
                     app.appendChild(loading);
-                
+
                     intervalID = setInterval(() => {
                         if (loading.innerText.length < 10) {
                             loading.innerText += '.';
@@ -111,12 +121,12 @@ document.querySelector('#add').addEventListener('click', () => {
                             loading.innerText = 'Loading';
                         }
                     }, 600);
-                
+
                     payroll.shifts.forEach((shift) => {
                         payroll.totalHrs += shift;
                     });
                     payroll.totalHrs = payroll.totalHrs.toFixed(2);
-                
+
                     payroll.totalPay = calculate.wage(payroll.totalHrs, payroll.payrate).toFixed(2);
                     payroll.taxes.federal = calculate.tax.fed(payroll.totalPay).toFixed(2);
                     payroll.taxes.medicare = calculate.tax.medicare(payroll.totalPay).toFixed(2);
@@ -124,7 +134,7 @@ document.querySelector('#add').addEventListener('click', () => {
                     payroll.taxes.state = calculate.tax.state(payroll.totalPay).toFixed(2);
                     payroll.taxes.medLeave = calculate.tax.medLeave(payroll.totalPay).toFixed(2);
                     payroll.taxes.famLeave = calculate.tax.famLeave(payroll.totalPay).toFixed(2);
-                
+
                     payroll.taxes.total = Number(payroll.taxes.federal) +
                                         Number(payroll.taxes.medicare) +
                                         Number(payroll.taxes.socialSecurity) +
@@ -132,9 +142,9 @@ document.querySelector('#add').addEventListener('click', () => {
                                         Number(payroll.taxes.medLeave) +
                                         Number(payroll.taxes.famLeave);
                     payroll.taxes.total = payroll.taxes.total.toFixed(2);
-                
+
                     payroll.netPay = (payroll.totalPay - payroll.taxes.total).toFixed(2);
-                
+
                     results.childNodes[1].innerText += ` ${payroll.totalHrs}`;
                     results.childNodes[2].innerText += ` $${payroll.totalPay}`;
                     results.childNodes[4].childNodes[0].innerText += ` $${payroll.taxes.federal}`;
@@ -145,12 +155,12 @@ document.querySelector('#add').addEventListener('click', () => {
                     results.childNodes[4].childNodes[5].innerText += ` $${payroll.taxes.famLeave}`;
                     results.childNodes[5].innerText += ` $${payroll.taxes.total}`;
                     results.childNodes[6].innerText += ` $${payroll.netPay}`;
-                
+
                     setTimeout(() => {
                         clearInterval(intervalID);
                         loading.remove();
                         app.append(results);
-                        
+
                         if (!eventListenerExists.forStartOver) {
                             document.querySelector('#startOver').addEventListener('click', () => {
                                 payroll.shifts = [];
