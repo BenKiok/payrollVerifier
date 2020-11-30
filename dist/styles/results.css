@@ -30,8 +30,5 @@
 
 #results #startOver {
     text-align: center;
-    display: block;
     margin: 40px auto 0 auto;
-    font-size: 1.3rem;
-    padding: 5px;
 }

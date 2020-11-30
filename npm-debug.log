@@ -1,0 +1,916 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @babel/core
+20 silly mapToRegistry name @babel/core
+21 silly mapToRegistry scope (from package name) @babel
+22 verbose mapToRegistry no registry URL found in name for scope @babel
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fcore
+26 silly fetchNamedPackageData @babel/preset-env
+27 silly mapToRegistry name @babel/preset-env
+28 silly mapToRegistry scope (from package name) @babel
+29 verbose mapToRegistry no registry URL found in name for scope @babel
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fpreset-env
+33 silly fetchNamedPackageData @babel/register
+34 silly mapToRegistry name @babel/register
+35 silly mapToRegistry scope (from package name) @babel
+36 verbose mapToRegistry no registry URL found in name for scope @babel
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fregister
+40 silly fetchNamedPackageData babel-jest
+41 silly mapToRegistry name babel-jest
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/babel-jest
+45 silly fetchNamedPackageData babel-loader
+46 silly mapToRegistry name babel-loader
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+50 silly fetchNamedPackageData jest
+51 silly mapToRegistry name jest
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry uri https://registry.npmjs.org/jest
+55 silly fetchNamedPackageData webpack
+56 silly mapToRegistry name webpack
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/webpack
+60 silly fetchNamedPackageData webpack-cli
+61 silly mapToRegistry name webpack-cli
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry uri https://registry.npmjs.org/webpack-cli
+65 silly fetchNamedPackageData yargs
+66 silly mapToRegistry name yargs
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry uri https://registry.npmjs.org/yargs
+70 verbose request uri https://registry.npmjs.org/@babel%2fregister
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 10:14:23 PM
+73 verbose request id 969e5a421f5fed11
+74 verbose etag W/"11b798e505bf2355fc03119bd338c4e3"
+75 verbose lastModified Thu, 15 Oct 2020 22:40:40 GMT
+76 http request GET https://registry.npmjs.org/@babel%2fregister
+77 verbose request uri https://registry.npmjs.org/babel-loader
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 10:14:24 PM
+80 verbose etag W/"c8b7147bac72429d0a2f87cd852469d5"
+81 verbose lastModified Thu, 26 Nov 2020 21:31:16 GMT
+82 http request GET https://registry.npmjs.org/babel-loader
+83 verbose request uri https://registry.npmjs.org/jest
+84 verbose request no auth needed
+85 info attempt registry request try #1 at 10:14:24 PM
+86 verbose etag W/"60616524784c1072bb9135ae28348527"
+87 verbose lastModified Wed, 04 Nov 2020 06:18:21 GMT
+88 http request GET https://registry.npmjs.org/jest
+89 verbose request uri https://registry.npmjs.org/@babel%2fcore
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 10:14:24 PM
+92 verbose etag W/"5a1d7b0bde8cff7f198b360cee7ef23a"
+93 verbose lastModified Tue, 24 Nov 2020 21:02:36 GMT
+94 http request GET https://registry.npmjs.org/@babel%2fcore
+95 verbose request uri https://registry.npmjs.org/babel-jest
+96 verbose request no auth needed
+97 info attempt registry request try #1 at 10:14:24 PM
+98 verbose etag W/"a1e6e8cc7a1ea1d6938c068b28ff0a37"
+99 verbose lastModified Wed, 04 Nov 2020 06:18:00 GMT
+100 http request GET https://registry.npmjs.org/babel-jest
+101 verbose request uri https://registry.npmjs.org/@babel%2fpreset-env
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 10:14:24 PM
+104 verbose etag W/"ca859fabfab243bfb397fc7635326b83"
+105 verbose lastModified Fri, 20 Nov 2020 21:05:55 GMT
+106 http request GET https://registry.npmjs.org/@babel%2fpreset-env
+107 verbose request uri https://registry.npmjs.org/yargs
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 10:14:24 PM
+110 verbose etag W/"254f71321cb062e07b84e168a90098c8"
+111 verbose lastModified Sun, 15 Nov 2020 18:43:02 GMT
+112 http request GET https://registry.npmjs.org/yargs
+113 verbose request uri https://registry.npmjs.org/webpack-cli
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 10:14:24 PM
+116 verbose etag W/"f3a25c49500ede02942173d030c0110a"
+117 verbose lastModified Mon, 23 Nov 2020 19:51:10 GMT
+118 http request GET https://registry.npmjs.org/webpack-cli
+119 verbose request uri https://registry.npmjs.org/webpack
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 10:14:24 PM
+122 verbose etag W/"40006d253f8fa97baea56e82419e75cf"
+123 verbose lastModified Sat, 28 Nov 2020 21:51:46 GMT
+124 http request GET https://registry.npmjs.org/webpack
+125 http 304 https://registry.npmjs.org/jest
+126 verbose headers { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+126 verbose headers   connection: 'keep-alive',
+126 verbose headers   'set-cookie':
+126 verbose headers    [ '__cfduid=d4d05fac05f5d835bf31a74a3fa4fb7c61606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+126 verbose headers   'cf-ray': '5fa165e6d90ee0e6-IAD',
+126 verbose headers   age: '3648',
+126 verbose headers   'cache-control': 'public, max-age=300',
+126 verbose headers   etag: '"60616524784c1072bb9135ae28348527"',
+126 verbose headers   'last-modified': 'Wed, 04 Nov 2020 06:18:21 GMT',
+126 verbose headers   vary: 'Accept-Encoding',
+126 verbose headers   'cf-cache-status': 'HIT',
+126 verbose headers   'cf-request-id': '06b8be04430000e0e620b1f000000001',
+126 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+126 verbose headers   server: 'cloudflare' }
+127 silly get cb [ 304,
+127 silly get   { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+127 silly get     connection: 'keep-alive',
+127 silly get     'set-cookie':
+127 silly get      [ '__cfduid=d4d05fac05f5d835bf31a74a3fa4fb7c61606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+127 silly get     'cf-ray': '5fa165e6d90ee0e6-IAD',
+127 silly get     age: '3648',
+127 silly get     'cache-control': 'public, max-age=300',
+127 silly get     etag: '"60616524784c1072bb9135ae28348527"',
+127 silly get     'last-modified': 'Wed, 04 Nov 2020 06:18:21 GMT',
+127 silly get     vary: 'Accept-Encoding',
+127 silly get     'cf-cache-status': 'HIT',
+127 silly get     'cf-request-id': '06b8be04430000e0e620b1f000000001',
+127 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+127 silly get     server: 'cloudflare' } ]
+128 verbose etag https://registry.npmjs.org/jest from cache
+129 verbose get saving jest to /home/benementary/.npm/registry.npmjs.org/jest/.cache.json
+130 http 304 https://registry.npmjs.org/babel-jest
+131 verbose headers { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+131 verbose headers   connection: 'keep-alive',
+131 verbose headers   'set-cookie':
+131 verbose headers    [ '__cfduid=d5f03a13b2d61941fe0daba849808b5801606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+131 verbose headers   'cf-ray': '5fa165e6ddddea49-IAD',
+131 verbose headers   age: '1622',
+131 verbose headers   'cache-control': 'public, max-age=300',
+131 verbose headers   etag: '"a1e6e8cc7a1ea1d6938c068b28ff0a37"',
+131 verbose headers   'last-modified': 'Wed, 04 Nov 2020 06:18:00 GMT',
+131 verbose headers   vary: 'Accept-Encoding',
+131 verbose headers   'cf-cache-status': 'HIT',
+131 verbose headers   'cf-request-id': '06b8be04470000ea49c08a1000000001',
+131 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+131 verbose headers   server: 'cloudflare' }
+132 silly get cb [ 304,
+132 silly get   { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+132 silly get     connection: 'keep-alive',
+132 silly get     'set-cookie':
+132 silly get      [ '__cfduid=d5f03a13b2d61941fe0daba849808b5801606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+132 silly get     'cf-ray': '5fa165e6ddddea49-IAD',
+132 silly get     age: '1622',
+132 silly get     'cache-control': 'public, max-age=300',
+132 silly get     etag: '"a1e6e8cc7a1ea1d6938c068b28ff0a37"',
+132 silly get     'last-modified': 'Wed, 04 Nov 2020 06:18:00 GMT',
+132 silly get     vary: 'Accept-Encoding',
+132 silly get     'cf-cache-status': 'HIT',
+132 silly get     'cf-request-id': '06b8be04470000ea49c08a1000000001',
+132 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+132 silly get     server: 'cloudflare' } ]
+133 verbose etag https://registry.npmjs.org/babel-jest from cache
+134 verbose get saving babel-jest to /home/benementary/.npm/registry.npmjs.org/babel-jest/.cache.json
+135 http 304 https://registry.npmjs.org/webpack
+136 verbose headers { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+136 verbose headers   connection: 'keep-alive',
+136 verbose headers   'set-cookie':
+136 verbose headers    [ '__cfduid=de1a00148b9fd3ed45677fda42e6067891606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+136 verbose headers   'cf-ray': '5fa165e6d93dcec4-IAD',
+136 verbose headers   age: '1149',
+136 verbose headers   'cache-control': 'public, max-age=300',
+136 verbose headers   etag: '"40006d253f8fa97baea56e82419e75cf"',
+136 verbose headers   'last-modified': 'Sat, 28 Nov 2020 21:51:46 GMT',
+136 verbose headers   vary: 'Accept-Encoding',
+136 verbose headers   'cf-cache-status': 'HIT',
+136 verbose headers   'cf-request-id': '06b8be04470000cec465116000000001',
+136 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+136 verbose headers   server: 'cloudflare' }
+137 silly get cb [ 304,
+137 silly get   { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+137 silly get     connection: 'keep-alive',
+137 silly get     'set-cookie':
+137 silly get      [ '__cfduid=de1a00148b9fd3ed45677fda42e6067891606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+137 silly get     'cf-ray': '5fa165e6d93dcec4-IAD',
+137 silly get     age: '1149',
+137 silly get     'cache-control': 'public, max-age=300',
+137 silly get     etag: '"40006d253f8fa97baea56e82419e75cf"',
+137 silly get     'last-modified': 'Sat, 28 Nov 2020 21:51:46 GMT',
+137 silly get     vary: 'Accept-Encoding',
+137 silly get     'cf-cache-status': 'HIT',
+137 silly get     'cf-request-id': '06b8be04470000cec465116000000001',
+137 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+137 silly get     server: 'cloudflare' } ]
+138 verbose etag https://registry.npmjs.org/webpack from cache
+139 verbose get saving webpack to /home/benementary/.npm/registry.npmjs.org/webpack/.cache.json
+140 http 304 https://registry.npmjs.org/webpack-cli
+141 verbose headers { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+141 verbose headers   connection: 'keep-alive',
+141 verbose headers   'set-cookie':
+141 verbose headers    [ '__cfduid=d79593906707e8c89f83dc51a5f1333801606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+141 verbose headers   'cf-ray': '5fa165e6ecf82624-IAD',
+141 verbose headers   age: '301',
+141 verbose headers   'cache-control': 'public, max-age=300',
+141 verbose headers   etag: '"f3a25c49500ede02942173d030c0110a"',
+141 verbose headers   'last-modified': 'Mon, 23 Nov 2020 19:51:10 GMT',
+141 verbose headers   vary: 'Accept-Encoding',
+141 verbose headers   'cf-cache-status': 'HIT',
+141 verbose headers   'cf-request-id': '06b8be045100002624ad386000000001',
+141 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+141 verbose headers   server: 'cloudflare' }
+142 silly get cb [ 304,
+142 silly get   { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+142 silly get     connection: 'keep-alive',
+142 silly get     'set-cookie':
+142 silly get      [ '__cfduid=d79593906707e8c89f83dc51a5f1333801606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+142 silly get     'cf-ray': '5fa165e6ecf82624-IAD',
+142 silly get     age: '301',
+142 silly get     'cache-control': 'public, max-age=300',
+142 silly get     etag: '"f3a25c49500ede02942173d030c0110a"',
+142 silly get     'last-modified': 'Mon, 23 Nov 2020 19:51:10 GMT',
+142 silly get     vary: 'Accept-Encoding',
+142 silly get     'cf-cache-status': 'HIT',
+142 silly get     'cf-request-id': '06b8be045100002624ad386000000001',
+142 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+142 silly get     server: 'cloudflare' } ]
+143 verbose etag https://registry.npmjs.org/webpack-cli from cache
+144 verbose get saving webpack-cli to /home/benementary/.npm/registry.npmjs.org/webpack-cli/.cache.json
+145 http 304 https://registry.npmjs.org/@babel%2fregister
+146 verbose headers { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+146 verbose headers   connection: 'keep-alive',
+146 verbose headers   'set-cookie':
+146 verbose headers    [ '__cfduid=dcc25450fd97ac456378266c4ba302bd81606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+146 verbose headers   'cf-ray': '5fa165e6efdb280b-IAD',
+146 verbose headers   age: '5725',
+146 verbose headers   'cache-control': 'public, max-age=300',
+146 verbose headers   etag: '"11b798e505bf2355fc03119bd338c4e3"',
+146 verbose headers   'last-modified': 'Thu, 15 Oct 2020 22:40:40 GMT',
+146 verbose headers   vary: 'Accept-Encoding',
+146 verbose headers   'cf-cache-status': 'HIT',
+146 verbose headers   'cf-request-id': '06b8be04510000280ba3104000000001',
+146 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+146 verbose headers   server: 'cloudflare' }
+147 silly get cb [ 304,
+147 silly get   { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+147 silly get     connection: 'keep-alive',
+147 silly get     'set-cookie':
+147 silly get      [ '__cfduid=dcc25450fd97ac456378266c4ba302bd81606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+147 silly get     'cf-ray': '5fa165e6efdb280b-IAD',
+147 silly get     age: '5725',
+147 silly get     'cache-control': 'public, max-age=300',
+147 silly get     etag: '"11b798e505bf2355fc03119bd338c4e3"',
+147 silly get     'last-modified': 'Thu, 15 Oct 2020 22:40:40 GMT',
+147 silly get     vary: 'Accept-Encoding',
+147 silly get     'cf-cache-status': 'HIT',
+147 silly get     'cf-request-id': '06b8be04510000280ba3104000000001',
+147 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+147 silly get     server: 'cloudflare' } ]
+148 verbose etag https://registry.npmjs.org/@babel%2fregister from cache
+149 verbose get saving @babel/register to /home/benementary/.npm/registry.npmjs.org/_40babel_252fregister/.cache.json
+150 http 304 https://registry.npmjs.org/@babel%2fcore
+151 verbose headers { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+151 verbose headers   connection: 'keep-alive',
+151 verbose headers   'set-cookie':
+151 verbose headers    [ '__cfduid=d37fcac50f150960e4c0f8bc01b6b2baa1606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+151 verbose headers   'cf-ray': '5fa165e6ee413829-IAD',
+151 verbose headers   age: '717',
+151 verbose headers   'cache-control': 'public, max-age=300',
+151 verbose headers   etag: '"5a1d7b0bde8cff7f198b360cee7ef23a"',
+151 verbose headers   'last-modified': 'Tue, 24 Nov 2020 21:02:36 GMT',
+151 verbose headers   vary: 'Accept-Encoding',
+151 verbose headers   'cf-cache-status': 'HIT',
+151 verbose headers   'cf-request-id': '06b8be045700003829da372000000001',
+151 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+151 verbose headers   server: 'cloudflare' }
+152 silly get cb [ 304,
+152 silly get   { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+152 silly get     connection: 'keep-alive',
+152 silly get     'set-cookie':
+152 silly get      [ '__cfduid=d37fcac50f150960e4c0f8bc01b6b2baa1606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+152 silly get     'cf-ray': '5fa165e6ee413829-IAD',
+152 silly get     age: '717',
+152 silly get     'cache-control': 'public, max-age=300',
+152 silly get     etag: '"5a1d7b0bde8cff7f198b360cee7ef23a"',
+152 silly get     'last-modified': 'Tue, 24 Nov 2020 21:02:36 GMT',
+152 silly get     vary: 'Accept-Encoding',
+152 silly get     'cf-cache-status': 'HIT',
+152 silly get     'cf-request-id': '06b8be045700003829da372000000001',
+152 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+152 silly get     server: 'cloudflare' } ]
+153 verbose etag https://registry.npmjs.org/@babel%2fcore from cache
+154 verbose get saving @babel/core to /home/benementary/.npm/registry.npmjs.org/_40babel_252fcore/.cache.json
+155 http 304 https://registry.npmjs.org/babel-loader
+156 verbose headers { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+156 verbose headers   connection: 'keep-alive',
+156 verbose headers   'set-cookie':
+156 verbose headers    [ '__cfduid=d4220980932332baf704e579a9b8a6b5c1606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+156 verbose headers   'cf-ray': '5fa165e6eddf298e-IAD',
+156 verbose headers   age: '3921',
+156 verbose headers   'cache-control': 'public, max-age=300',
+156 verbose headers   etag: '"c8b7147bac72429d0a2f87cd852469d5"',
+156 verbose headers   'last-modified': 'Thu, 26 Nov 2020 21:31:16 GMT',
+156 verbose headers   vary: 'Accept-Encoding',
+156 verbose headers   'cf-cache-status': 'HIT',
+156 verbose headers   'cf-request-id': '06b8be044f0000298e8ab9d000000001',
+156 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+156 verbose headers   server: 'cloudflare' }
+157 silly get cb [ 304,
+157 silly get   { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+157 silly get     connection: 'keep-alive',
+157 silly get     'set-cookie':
+157 silly get      [ '__cfduid=d4220980932332baf704e579a9b8a6b5c1606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+157 silly get     'cf-ray': '5fa165e6eddf298e-IAD',
+157 silly get     age: '3921',
+157 silly get     'cache-control': 'public, max-age=300',
+157 silly get     etag: '"c8b7147bac72429d0a2f87cd852469d5"',
+157 silly get     'last-modified': 'Thu, 26 Nov 2020 21:31:16 GMT',
+157 silly get     vary: 'Accept-Encoding',
+157 silly get     'cf-cache-status': 'HIT',
+157 silly get     'cf-request-id': '06b8be044f0000298e8ab9d000000001',
+157 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+157 silly get     server: 'cloudflare' } ]
+158 verbose etag https://registry.npmjs.org/babel-loader from cache
+159 verbose get saving babel-loader to /home/benementary/.npm/registry.npmjs.org/babel-loader/.cache.json
+160 http 304 https://registry.npmjs.org/@babel%2fpreset-env
+161 verbose headers { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+161 verbose headers   connection: 'keep-alive',
+161 verbose headers   'set-cookie':
+161 verbose headers    [ '__cfduid=d74279fd9e9b44342b328fb46f10eab681606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+161 verbose headers   'cf-ray': '5fa165e6e816cee4-IAD',
+161 verbose headers   age: '3905',
+161 verbose headers   'cache-control': 'public, max-age=300',
+161 verbose headers   etag: '"ca859fabfab243bfb397fc7635326b83"',
+161 verbose headers   'last-modified': 'Fri, 20 Nov 2020 21:05:55 GMT',
+161 verbose headers   vary: 'Accept-Encoding',
+161 verbose headers   'cf-cache-status': 'HIT',
+161 verbose headers   'cf-request-id': '06b8be04560000cee409203000000001',
+161 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+161 verbose headers   server: 'cloudflare' }
+162 silly get cb [ 304,
+162 silly get   { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+162 silly get     connection: 'keep-alive',
+162 silly get     'set-cookie':
+162 silly get      [ '__cfduid=d74279fd9e9b44342b328fb46f10eab681606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+162 silly get     'cf-ray': '5fa165e6e816cee4-IAD',
+162 silly get     age: '3905',
+162 silly get     'cache-control': 'public, max-age=300',
+162 silly get     etag: '"ca859fabfab243bfb397fc7635326b83"',
+162 silly get     'last-modified': 'Fri, 20 Nov 2020 21:05:55 GMT',
+162 silly get     vary: 'Accept-Encoding',
+162 silly get     'cf-cache-status': 'HIT',
+162 silly get     'cf-request-id': '06b8be04560000cee409203000000001',
+162 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+162 silly get     server: 'cloudflare' } ]
+163 verbose etag https://registry.npmjs.org/@babel%2fpreset-env from cache
+164 verbose get saving @babel/preset-env to /home/benementary/.npm/registry.npmjs.org/_40babel_252fpreset-env/.cache.json
+165 http 304 https://registry.npmjs.org/yargs
+166 verbose headers { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+166 verbose headers   connection: 'keep-alive',
+166 verbose headers   'set-cookie':
+166 verbose headers    [ '__cfduid=db65c444bb856a1fa82565760d256e55c1606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+166 verbose headers   'cf-ray': '5fa165e6fe68384d-IAD',
+166 verbose headers   age: '530',
+166 verbose headers   'cache-control': 'public, max-age=300',
+166 verbose headers   etag: '"254f71321cb062e07b84e168a90098c8"',
+166 verbose headers   'last-modified': 'Sun, 15 Nov 2020 18:43:02 GMT',
+166 verbose headers   vary: 'Accept-Encoding',
+166 verbose headers   'cf-cache-status': 'HIT',
+166 verbose headers   'cf-request-id': '06b8be045a0000384d04073000000001',
+166 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+166 verbose headers   server: 'cloudflare' }
+167 silly get cb [ 304,
+167 silly get   { date: 'Mon, 30 Nov 2020 03:14:24 GMT',
+167 silly get     connection: 'keep-alive',
+167 silly get     'set-cookie':
+167 silly get      [ '__cfduid=db65c444bb856a1fa82565760d256e55c1606706064; expires=Wed, 30-Dec-20 03:14:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+167 silly get     'cf-ray': '5fa165e6fe68384d-IAD',
+167 silly get     age: '530',
+167 silly get     'cache-control': 'public, max-age=300',
+167 silly get     etag: '"254f71321cb062e07b84e168a90098c8"',
+167 silly get     'last-modified': 'Sun, 15 Nov 2020 18:43:02 GMT',
+167 silly get     vary: 'Accept-Encoding',
+167 silly get     'cf-cache-status': 'HIT',
+167 silly get     'cf-request-id': '06b8be045a0000384d04073000000001',
+167 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+167 silly get     server: 'cloudflare' } ]
+168 verbose etag https://registry.npmjs.org/yargs from cache
+169 verbose get saving yargs to /home/benementary/.npm/registry.npmjs.org/yargs/.cache.json
+170 silly resolveWithNewModule jest@26.6.3 checking installable status
+171 silly cache add args [ 'jest@^26.6.3', null ]
+172 verbose cache add spec jest@^26.6.3
+173 silly cache add parsed spec Result {
+173 silly cache add   raw: 'jest@^26.6.3',
+173 silly cache add   scope: null,
+173 silly cache add   name: 'jest',
+173 silly cache add   rawSpec: '^26.6.3',
+173 silly cache add   spec: '>=26.6.3 <27.0.0',
+173 silly cache add   type: 'range' }
+174 silly addNamed jest@>=26.6.3 <27.0.0
+175 verbose addNamed ">=26.6.3 <27.0.0" is a valid semver range for jest
+176 silly addNameRange { name: 'jest', range: '>=26.6.3 <27.0.0', hasData: false }
+177 silly mapToRegistry name jest
+178 silly mapToRegistry using default registry
+179 silly mapToRegistry registry https://registry.npmjs.org/
+180 silly mapToRegistry uri https://registry.npmjs.org/jest
+181 verbose addNameRange registry:https://registry.npmjs.org/jest not in flight; fetching
+182 silly resolveWithNewModule babel-jest@26.6.3 checking installable status
+183 silly cache add args [ 'babel-jest@^26.6.3', null ]
+184 verbose cache add spec babel-jest@^26.6.3
+185 silly cache add parsed spec Result {
+185 silly cache add   raw: 'babel-jest@^26.6.3',
+185 silly cache add   scope: null,
+185 silly cache add   name: 'babel-jest',
+185 silly cache add   rawSpec: '^26.6.3',
+185 silly cache add   spec: '>=26.6.3 <27.0.0',
+185 silly cache add   type: 'range' }
+186 silly addNamed babel-jest@>=26.6.3 <27.0.0
+187 verbose addNamed ">=26.6.3 <27.0.0" is a valid semver range for babel-jest
+188 silly addNameRange { name: 'babel-jest', range: '>=26.6.3 <27.0.0', hasData: false }
+189 silly mapToRegistry name babel-jest
+190 silly mapToRegistry using default registry
+191 silly mapToRegistry registry https://registry.npmjs.org/
+192 silly mapToRegistry uri https://registry.npmjs.org/babel-jest
+193 verbose addNameRange registry:https://registry.npmjs.org/babel-jest not in flight; fetching
+194 silly resolveWithNewModule webpack-cli@4.2.0 checking installable status
+195 silly cache add args [ 'webpack-cli@^4.2.0', null ]
+196 verbose cache add spec webpack-cli@^4.2.0
+197 silly cache add parsed spec Result {
+197 silly cache add   raw: 'webpack-cli@^4.2.0',
+197 silly cache add   scope: null,
+197 silly cache add   name: 'webpack-cli',
+197 silly cache add   rawSpec: '^4.2.0',
+197 silly cache add   spec: '>=4.2.0 <5.0.0',
+197 silly cache add   type: 'range' }
+198 silly addNamed webpack-cli@>=4.2.0 <5.0.0
+199 verbose addNamed ">=4.2.0 <5.0.0" is a valid semver range for webpack-cli
+200 silly addNameRange { name: 'webpack-cli', range: '>=4.2.0 <5.0.0', hasData: false }
+201 silly mapToRegistry name webpack-cli
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry uri https://registry.npmjs.org/webpack-cli
+205 verbose addNameRange registry:https://registry.npmjs.org/webpack-cli not in flight; fetching
+206 silly resolveWithNewModule @babel/register@7.12.1 checking installable status
+207 silly cache add args [ '@babel/register@^7.12.1', null ]
+208 verbose cache add spec @babel/register@^7.12.1
+209 silly cache add parsed spec Result {
+209 silly cache add   raw: '@babel/register@^7.12.1',
+209 silly cache add   scope: '@babel',
+209 silly cache add   name: '@babel/register',
+209 silly cache add   rawSpec: '^7.12.1',
+209 silly cache add   spec: '>=7.12.1 <8.0.0',
+209 silly cache add   type: 'range' }
+210 silly addNamed @babel/register@>=7.12.1 <8.0.0
+211 verbose addNamed ">=7.12.1 <8.0.0" is a valid semver range for @babel/register
+212 silly addNameRange { name: '@babel/register',
+212 silly addNameRange   range: '>=7.12.1 <8.0.0',
+212 silly addNameRange   hasData: false }
+213 silly mapToRegistry name @babel/register
+214 silly mapToRegistry scope (from package name) @babel
+215 verbose mapToRegistry no registry URL found in name for scope @babel
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npmjs.org/
+218 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fregister
+219 verbose addNameRange registry:https://registry.npmjs.org/@babel%2fregister not in flight; fetching
+220 silly resolveWithNewModule @babel/core@7.12.9 checking installable status
+221 silly cache add args [ '@babel/core@^7.12.3', null ]
+222 verbose cache add spec @babel/core@^7.12.3
+223 silly cache add parsed spec Result {
+223 silly cache add   raw: '@babel/core@^7.12.3',
+223 silly cache add   scope: '@babel',
+223 silly cache add   name: '@babel/core',
+223 silly cache add   rawSpec: '^7.12.3',
+223 silly cache add   spec: '>=7.12.3 <8.0.0',
+223 silly cache add   type: 'range' }
+224 silly addNamed @babel/core@>=7.12.3 <8.0.0
+225 verbose addNamed ">=7.12.3 <8.0.0" is a valid semver range for @babel/core
+226 silly addNameRange { name: '@babel/core', range: '>=7.12.3 <8.0.0', hasData: false }
+227 silly mapToRegistry name @babel/core
+228 silly mapToRegistry scope (from package name) @babel
+229 verbose mapToRegistry no registry URL found in name for scope @babel
+230 silly mapToRegistry using default registry
+231 silly mapToRegistry registry https://registry.npmjs.org/
+232 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fcore
+233 verbose addNameRange registry:https://registry.npmjs.org/@babel%2fcore not in flight; fetching
+234 silly resolveWithNewModule webpack@5.9.0 checking installable status
+235 silly cache add args [ 'webpack@^5.4.0', null ]
+236 verbose cache add spec webpack@^5.4.0
+237 silly cache add parsed spec Result {
+237 silly cache add   raw: 'webpack@^5.4.0',
+237 silly cache add   scope: null,
+237 silly cache add   name: 'webpack',
+237 silly cache add   rawSpec: '^5.4.0',
+237 silly cache add   spec: '>=5.4.0 <6.0.0',
+237 silly cache add   type: 'range' }
+238 silly addNamed webpack@>=5.4.0 <6.0.0
+239 verbose addNamed ">=5.4.0 <6.0.0" is a valid semver range for webpack
+240 silly addNameRange { name: 'webpack', range: '>=5.4.0 <6.0.0', hasData: false }
+241 silly mapToRegistry name webpack
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry https://registry.npmjs.org/
+244 silly mapToRegistry uri https://registry.npmjs.org/webpack
+245 verbose addNameRange registry:https://registry.npmjs.org/webpack not in flight; fetching
+246 silly resolveWithNewModule babel-loader@8.2.2 checking installable status
+247 silly cache add args [ 'babel-loader@^8.1.0', null ]
+248 verbose cache add spec babel-loader@^8.1.0
+249 silly cache add parsed spec Result {
+249 silly cache add   raw: 'babel-loader@^8.1.0',
+249 silly cache add   scope: null,
+249 silly cache add   name: 'babel-loader',
+249 silly cache add   rawSpec: '^8.1.0',
+249 silly cache add   spec: '>=8.1.0 <9.0.0',
+249 silly cache add   type: 'range' }
+250 silly addNamed babel-loader@>=8.1.0 <9.0.0
+251 verbose addNamed ">=8.1.0 <9.0.0" is a valid semver range for babel-loader
+252 silly addNameRange { name: 'babel-loader', range: '>=8.1.0 <9.0.0', hasData: false }
+253 silly mapToRegistry name babel-loader
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+257 verbose addNameRange registry:https://registry.npmjs.org/babel-loader not in flight; fetching
+258 silly resolveWithNewModule @babel/preset-env@7.12.7 checking installable status
+259 silly cache add args [ '@babel/preset-env@^7.12.1', null ]
+260 verbose cache add spec @babel/preset-env@^7.12.1
+261 silly cache add parsed spec Result {
+261 silly cache add   raw: '@babel/preset-env@^7.12.1',
+261 silly cache add   scope: '@babel',
+261 silly cache add   name: '@babel/preset-env',
+261 silly cache add   rawSpec: '^7.12.1',
+261 silly cache add   spec: '>=7.12.1 <8.0.0',
+261 silly cache add   type: 'range' }
+262 silly addNamed @babel/preset-env@>=7.12.1 <8.0.0
+263 verbose addNamed ">=7.12.1 <8.0.0" is a valid semver range for @babel/preset-env
+264 silly addNameRange { name: '@babel/preset-env',
+264 silly addNameRange   range: '>=7.12.1 <8.0.0',
+264 silly addNameRange   hasData: false }
+265 silly mapToRegistry name @babel/preset-env
+266 silly mapToRegistry scope (from package name) @babel
+267 verbose mapToRegistry no registry URL found in name for scope @babel
+268 silly mapToRegistry using default registry
+269 silly mapToRegistry registry https://registry.npmjs.org/
+270 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fpreset-env
+271 verbose addNameRange registry:https://registry.npmjs.org/@babel%2fpreset-env not in flight; fetching
+272 verbose get https://registry.npmjs.org/jest not expired, no request
+273 silly addNameRange number 2 { name: 'jest', range: '>=26.6.3 <27.0.0', hasData: true }
+274 silly addNameRange versions [ 'jest',
+274 silly addNameRange   [ '0.0.6',
+274 silly addNameRange     '0.0.7',
+274 silly addNameRange     '0.0.61',
+274 silly addNameRange     '0.0.71',
+274 silly addNameRange     '0.0.72',
+274 silly addNameRange     '0.0.73',
+274 silly addNameRange     '0.0.74',
+274 silly addNameRange     '0.0.75',
+274 silly addNameRange     '0.0.80',
+274 silly addNameRange     '0.0.81',
+274 silly addNameRange     '0.0.76',
+274 silly addNameRange     '0.0.78',
+274 silly addNameRange     '0.0.79',
+274 silly addNameRange     '0.0.82',
+274 silly addNameRange     '0.0.83',
+274 silly addNameRange     '0.0.84',
+274 silly addNameRange     '0.0.85',
+274 silly addNameRange     '0.0.86',
+274 silly addNameRange     '0.0.87',
+274 silly addNameRange     '0.0.88',
+274 silly addNameRange     '0.0.89',
+274 silly addNameRange     '0.0.90',
+274 silly addNameRange     '0.0.91',
+274 silly addNameRange     '0.0.92',
+274 silly addNameRange     '0.0.93',
+274 silly addNameRange     '0.0.94',
+274 silly addNameRange     '0.0.95',
+274 silly addNameRange     '0.0.96',
+274 silly addNameRange     '0.0.97',
+274 silly addNameRange     '0.0.98',
+274 silly addNameRange     '0.0.99',
+274 silly addNameRange     '0.1.0',
+274 silly addNameRange     '0.1.1',
+274 silly addNameRange     '0.1.2',
+274 silly addNameRange     '0.1.21',
+274 silly addNameRange     '0.1.22',
+274 silly addNameRange     '0.1.30',
+274 silly addNameRange     '0.1.31',
+274 silly addNameRange     '0.1.32',
+274 silly addNameRange     '0.1.33',
+274 silly addNameRange     '0.1.34',
+274 silly addNameRange     '0.1.35',
+274 silly addNameRange     '0.1.37',
+274 silly addNameRange     '0.1.39',
+274 silly addNameRange     '0.1.40',
+274 silly addNameRange     '12.1.0',
+274 silly addNameRange     '12.1.0-alpha1',
+274 silly addNameRange     '12.1.1',
+274 silly addNameRange     '12.1.1-alpha.2935e14d',
+274 silly addNameRange     '12.1.2-alpha.a482b15c',
+274 silly addNameRange     '12.1.2-alpha.6230044c',
+274 silly addNameRange     '12.1.3-alpha.6230044c',
+274 silly addNameRange     '12.1.4-alpha.a737c6e5',
+274 silly addNameRange     '12.1.5-alpha.b5322422',
+274 silly addNameRange     '13.0.0',
+274 silly addNameRange     '13.1.0',
+274 silly addNameRange     '13.1.1',
+274 silly addNameRange     '13.1.2',
+274 silly addNameRange     '13.1.3',
+274 silly addNameRange     '13.2.0',
+274 silly addNameRange     '13.2.1',
+274 silly addNameRange     '13.2.2',
+274 silly addNameRange     '13.2.3',
+274 silly addNameRange     '13.3.0-alpha.a44f195f',
+274 silly addNameRange     '13.3.0-alpha.4eb0c908',
+274 silly addNameRange     '13.2.3-alpha.ffc7404b',
+274 silly addNameRange     '13.3.0-alpha.ffc7404b',
+274 silly addNameRange     '13.3.0-alpha.8b48d59e',
+274 silly addNameRange     '13.3.0-alpha.g8b48d59',
+274 silly addNameRange     '13.4.0-alpha.d2632006',
+274 silly addNameRange     '14.0.0',
+274 silly addNameRange     '14.0.1',
+274 silly addNameRange     '14.1.0',
+274 silly addNameRange     '14.2.0-alpha.ca8bfb6e',
+274 silly addNameRange     '14.2.1-alpha.e21d71a4',
+274 silly addNameRange     '14.2.2-alpha.22bd3c33',
+274 silly addNameRange     '14.3.0-alpha.d13c163e',
+274 silly addNameRange     '14.3.1-alpha.410cb91a',
+274 silly addNameRange     '14.3.2-alpha.83c25417',
+274 silly addNameRange     '15.0.0',
+274 silly addNameRange     '15.0.1',
+274 silly addNameRange     '15.0.2',
+274 silly addNameRange     '15.1.0',
+274 silly addNameRange     '15.1.1',
+274 silly addNameRange     '15.2.0-alpha.c681f819',
+274 silly addNameRange     '16.0.0',
+274 silly addNameRange     '16.0.1',
+274 silly addNameRange     '16.0.2',
+274 silly addNameRange     '16.1.0-alpha.691b0e22',
+274 silly addNameRange     '17.0.0',
+274 silly addNameRange     '17.0.1',
+274 silly addNameRange     '17.0.2',
+274 silly addNameRange     '17.0.3',
+274 silly addNameRange     '18.0.0',
+274 silly addNameRange     '18.1.0',
+274 silly addNameRange     '18.5.0-alpha.7da3df39',
+274 silly addNameRange     '19.0.0',
+274 silly addNameRange     '19.0.1',
+274 silly addNameRange     '19.0.2',
+274 silly addNameRange     '19.1.0-alpha.eed82034',
+274 silly addNameRange     ... 161 more items ] ]
+275 silly addNamed jest@26.6.3
+276 verbose addNamed "26.6.3" is a plain semver version for jest
+277 verbose get https://registry.npmjs.org/webpack-cli not expired, no request
+278 silly addNameRange number 2 { name: 'webpack-cli', range: '>=4.2.0 <5.0.0', hasData: true }
+279 silly addNameRange versions [ 'webpack-cli',
+279 silly addNameRange   [ '1.0.0',
+279 silly addNameRange     '1.3.0',
+279 silly addNameRange     '1.3.1',
+279 silly addNameRange     '1.3.2',
+279 silly addNameRange     '1.3.3',
+279 silly addNameRange     '1.3.4',
+279 silly addNameRange     '1.3.5',
+279 silly addNameRange     '1.3.7',
+279 silly addNameRange     '1.3.8',
+279 silly addNameRange     '1.3.9',
+279 silly addNameRange     '1.4.0',
+279 silly addNameRange     '1.4.1',
+279 silly addNameRange     '1.4.2',
+279 silly addNameRange     '1.4.3',
+279 silly addNameRange     '1.4.4',
+279 silly addNameRange     '1.4.5',
+279 silly addNameRange     '1.4.6',
+279 silly addNameRange     '1.4.7',
+279 silly addNameRange     '1.4.8',
+279 silly addNameRange     '1.5.0',
+279 silly addNameRange     '1.5.1',
+279 silly addNameRange     '1.5.2',
+279 silly addNameRange     '1.5.3',
+279 silly addNameRange     '2.0.0',
+279 silly addNameRange     '2.0.1',
+279 silly addNameRange     '2.0.2',
+279 silly addNameRange     '2.0.3',
+279 silly addNameRange     '2.0.4',
+279 silly addNameRange     '2.0.5',
+279 silly addNameRange     '2.0.6',
+279 silly addNameRange     '2.0.7',
+279 silly addNameRange     '2.0.8',
+279 silly addNameRange     '2.0.9',
+279 silly addNameRange     '2.0.10',
+279 silly addNameRange     '2.0.11',
+279 silly addNameRange     '2.0.12',
+279 silly addNameRange     '2.0.13',
+279 silly addNameRange     '2.0.14',
+279 silly addNameRange     '2.0.15',
+279 silly addNameRange     '2.1.0',
+279 silly addNameRange     '2.1.1',
+279 silly addNameRange     '2.1.2',
+279 silly addNameRange     '2.1.3',
+279 silly addNameRange     '0.0.0-development',
+279 silly addNameRange     '0.0.1-development',
+279 silly addNameRange     '0.0.2-development',
+279 silly addNameRange     '0.0.3-development',
+279 silly addNameRange     '0.0.4-development',
+279 silly addNameRange     '0.0.5-development',
+279 silly addNameRange     '0.0.6-development',
+279 silly addNameRange     '0.0.7-development',
+279 silly addNameRange     '0.0.8-development',
+279 silly addNameRange     '2.1.4',
+279 silly addNameRange     '2.1.5',
+279 silly addNameRange     '3.0.0',
+279 silly addNameRange     '3.0.1',
+279 silly addNameRange     '3.0.2',
+279 silly addNameRange     '3.0.3',
+279 silly addNameRange     '3.0.4',
+279 silly addNameRange     '3.0.5',
+279 silly addNameRange     '3.0.6',
+279 silly addNameRange     '3.0.7',
+279 silly addNameRange     '3.0.8',
+279 silly addNameRange     '3.1.0',
+279 silly addNameRange     '3.1.1',
+279 silly addNameRange     '3.1.2',
+279 silly addNameRange     '4.0.0-alpha',
+279 silly addNameRange     '4.0.0-alpha-1',
+279 silly addNameRange     '4.0.0-alpha-2',
+279 silly addNameRange     '4.0.0-alpha-3',
+279 silly addNameRange     '4.0.0-alpha-4',
+279 silly addNameRange     '3.2.0',
+279 silly addNameRange     '3.2.1',
+279 silly addNameRange     '3.2.2',
+279 silly addNameRange     '3.2.3',
+279 silly addNameRange     '3.3.0',
+279 silly addNameRange     '3.3.1',
+279 silly addNameRange     '3.3.2',
+279 silly addNameRange     '3.3.3',
+279 silly addNameRange     '3.3.4',
+279 silly addNameRange     '3.3.5',
+279 silly addNameRange     '4.0.0-alpha-5',
+279 silly addNameRange     '3.3.6',
+279 silly addNameRange     '3.3.7',
+279 silly addNameRange     '3.3.8',
+279 silly addNameRange     '3.3.9',
+279 silly addNameRange     '3.3.10',
+279 silly addNameRange     '4.0.0-beta.0',
+279 silly addNameRange     '4.0.0-beta.1',
+279 silly addNameRange     '4.0.0-beta.2',
+279 silly addNameRange     '4.0.0-beta.3',
+279 silly addNameRange     '3.3.11',
+279 silly addNameRange     '4.0.0-beta.6',
+279 silly addNameRange     '4.0.0-beta.7',
+279 silly addNameRange     '4.0.0-beta.8',
+279 silly addNameRange     '3.3.12',
+279 silly addNameRange     '4.0.0-beta.9',
+279 silly addNameRange     '4.0.0-rc.0',
+279 silly addNameRange     '4.0.0-rc.1',
+279 silly addNameRange     '4.0.0',
+279 silly addNameRange     ... 2 more items ] ]
+280 silly addNamed webpack-cli@4.2.0
+281 verbose addNamed "4.2.0" is a plain semver version for webpack-cli
+282 verbose get https://registry.npmjs.org/babel-jest not expired, no request
+283 silly addNameRange number 2 { name: 'babel-jest', range: '>=26.6.3 <27.0.0', hasData: true }
+284 silly addNameRange versions [ 'babel-jest',
+284 silly addNameRange   [ '4.0.0',
+284 silly addNameRange     '5.0.0',
+284 silly addNameRange     '5.0.1',
+284 silly addNameRange     '5.2.0',
+284 silly addNameRange     '5.2.1',
+284 silly addNameRange     '5.3.0',
+284 silly addNameRange     '6.0.0',
+284 silly addNameRange     '6.0.1',
+284 silly addNameRange     '9.0.0',
+284 silly addNameRange     '9.0.1',
+284 silly addNameRange     '9.0.2',
+284 silly addNameRange     '9.0.3',
+284 silly addNameRange     '10.0.1',
+284 silly addNameRange     '10.0.2',
+284 silly addNameRange     '11.0.0',
+284 silly addNameRange     '11.0.1',
+284 silly addNameRange     '11.0.2',
+284 silly addNameRange     '12.0.0',
+284 silly addNameRange     '12.0.1',
+284 silly addNameRange     '12.0.2',
+284 silly addNameRange     '12.1.0',
+284 silly addNameRange     '12.1.1-alpha.2935e14d',
+284 silly addNameRange     '12.1.2-alpha.a482b15c',
+284 silly addNameRange     '12.1.2-alpha.6230044c',
+284 silly addNameRange     '12.1.3-alpha.6230044c',
+284 silly addNameRange     '12.1.4-alpha.a737c6e5',
+284 silly addNameRange     '12.1.5-alpha.b5322422',
+284 silly addNameRange     '13.0.0',
+284 silly addNameRange     '13.2.1',
+284 silly addNameRange     '13.2.2',
+284 silly addNameRange     '13.3.0-alpha.a44f195f',
+284 silly addNameRange     '13.3.0-alpha.4eb0c908',
+284 silly addNameRange     '13.2.3-alpha.ffc7404b',
+284 silly addNameRange     '13.3.0-alpha.ffc7404b',
+284 silly addNameRange     '13.3.0-alpha.8b48d59e',
+284 silly addNameRange     '13.3.0-alpha.g8b48d59',
+284 silly addNameRange     '13.4.0-alpha.d2632006',
+284 silly addNameRange     '14.0.0',
+284 silly addNameRange     '14.0.1',
+284 silly addNameRange     '14.0.2',
+284 silly addNameRange     '14.1.0',
+284 silly addNameRange     '14.2.0-alpha.ca8bfb6e',
+284 silly addNameRange     '14.2.1-alpha.e21d71a4',
+284 silly addNameRange     '14.2.2-alpha.22bd3c33',
+284 silly addNameRange     '14.3.0-alpha.d13c163e',
+284 silly addNameRange     '14.3.1-alpha.410cb91a',
+284 silly addNameRange     '14.3.2-alpha.83c25417',
+284 silly addNameRange     '15.0.0',
+284 silly addNameRange     '15.2.0-alpha.c681f819',
+284 silly addNameRange     '16.0.0',
+284 silly addNameRange     '16.1.0-alpha.691b0e22',
+284 silly addNameRange     '17.0.0',
+284 silly addNameRange     '17.0.2',
+284 silly addNameRange     '18.0.0',
+284 silly addNameRange     '18.5.0-alpha.7da3df39',
+284 silly addNameRange     '19.0.0',
+284 silly addNameRange     '19.1.0-alpha.eed82034',
+284 silly addNameRange     '19.2.0-alpha.993e64af',
+284 silly addNameRange     '19.3.0-alpha.85402254',
+284 silly addNameRange     '20.0.0',
+284 silly addNameRange     '20.0.1',
+284 silly addNameRange     '20.0.2',
+284 silly addNameRange     '20.0.3',
+284 silly addNameRange     '20.1.0-alpha.1',
+284 silly addNameRange     '20.1.0-alpha.2',
+284 silly addNameRange     '20.1.0-alpha.3',
+284 silly addNameRange     '20.1.0-beta.1',
+284 silly addNameRange     '20.1.0-chi.1',
+284 silly addNameRange     '20.1.0-delta.1',
+284 silly addNameRange     '20.1.0-delta.2',
+284 silly addNameRange     '20.1.0-delta.3',
+284 silly addNameRange     '20.1.0-delta.4',
+284 silly addNameRange     '20.1.0-delta.5',
+284 silly addNameRange     '20.1.0-echo.1',
+284 silly addNameRange     '21.0.0-alpha.1',
+284 silly addNameRange     '21.0.0-alpha.2',
+284 silly addNameRange     '21.0.0-beta.1',
+284 silly addNameRange     '21.0.0',
+284 silly addNameRange     '21.0.2',
+284 silly addNameRange     '21.2.0',
+284 silly addNameRange     '21.3.0-alpha.1e3ee68e',
+284 silly addNameRange     '21.3.0-alpha.eff7a1cf',
+284 silly addNameRange     '21.3.0-beta.1',
+284 silly addNameRange     '21.3.0-beta.2',
+284 silly addNameRange     '21.3.0-beta.3',
+284 silly addNameRange     '21.3.0-beta.4',
+284 silly addNameRange     '21.3.0-beta.5',
+284 silly addNameRange     '21.3.0-beta.6',
+284 silly addNameRange     '21.3.0-beta.7',
+284 silly addNameRange     '21.3.0-beta.8',
+284 silly addNameRange     '21.3.0-beta.9',
+284 silly addNameRange     '21.3.0-beta.10',
+284 silly addNameRange     '21.3.0-beta.11',
+284 silly addNameRange     '21.3.0-beta.12',
+284 silly addNameRange     '21.3.0-beta.13',
+284 silly addNameRange     '21.3.0-beta.14',
+284 silly addNameRange     '21.3.0-beta.15',
+284 silly addNameRange     '22.0.0',
+284 silly addNameRange     '22.0.1',
+284 silly addNameRange     '22.0.2',
+284 silly addNameRange     ... 91 more items ] ]
+285 silly addNamed babel-jest@26.6.3
+286 verbose addNamed "26.6.3" is a plain semver version for babel-jest
+287 verbose stack Error: Missing required argument #1
+287 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+287 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+287 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+287 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+287 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+287 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+287 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+287 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+287 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+287 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+288 verbose cwd /home/benementary/payrollVerifier
+289 error Linux 5.7.0-050700-generic
+290 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+291 error node v8.10.0
+292 error npm  v3.5.2
+293 error code EMISSINGARG
+294 error typeerror Error: Missing required argument #1
+294 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+294 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+294 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+294 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+294 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+294 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+294 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+294 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+294 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+294 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+295 error typeerror This is an error with npm itself. Please report this error at:
+295 error typeerror     <http://github.com/npm/npm/issues>
+296 verbose exit [ 1, true ]
